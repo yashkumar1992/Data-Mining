@@ -16,5 +16,8 @@ summary(inputData)
 # Histogram of each parameter
 hist(inputData$x1)
 
+# Boxplot
+boxplot(inputData$x1)
+
 # Correlation Matrix
 cor(inputData)
