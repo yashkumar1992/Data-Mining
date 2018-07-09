@@ -7,6 +7,9 @@ inputData <- read.csv("inputfile.csv",sep='\t')
 # View the dataframe as table
 View(inputData)
 
+# View the first few datapoints 
+head(inputData)
+
 # Summary Statistics 
 summary(inputData)
 
